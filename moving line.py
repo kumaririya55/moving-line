@@ -18,6 +18,10 @@ def line(point1,point2,color,s=1/10,width=1):
                         y1=s
                     elif(event.key==pygame.K_w):
                         y1=-s
+                        elif(event.key==pygame.K_a):
+                        y1=-f
+                        elif(event.key==pygame.K_wa):
+                        y1=-1s
                     elif(event.key==pygame.K_UP):
                         y2=-s
                     elif(event.key==pygame.K_DOWN):
@@ -32,6 +36,10 @@ def line(point1,point2,color,s=1/10,width=1):
                     if(event.key==pygame.K_a):
                         x1=0
                     elif(event.key==pygame.K_d):
+                       elif(event.key==pygame.K_UP):
+                        y2=-s
+                    elif(event.key==pygame.K_DOWN):
+                        y2=+s
                         x1=0
                     elif(event.key==pygame.K_s):
                         y1=0
